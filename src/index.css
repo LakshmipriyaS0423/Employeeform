@@ -1,0 +1,218 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: rgb(150, 233, 244);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e672e2;
+  width: 100%;
+  padding: 32px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  
+}
+.tabel{
+  position: absolute;
+  top: 900px;
+}
+h1{
+  margin-bottom: 16px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 230px;
+}
+
+button {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  background-color: #12d339;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  width: 100px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0066aa;
+}
+.error {
+  color: red;
+  font-size: 20px;
+}
+input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+/*=========================================================================Dashboard=====================================================================*/
+.Dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*===================================================================EmployeeLIst===========================================================================*/
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.gender-inputs{
+  display: flex;
+  flex-wrap: wrap;
+}
+.gender-inputs label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.gender-inputs input[type="radio"] {
+  height: 15px;
+}
+.course-inputs{
+  display: flex;
+  flex-wrap: wrap;
+}
+.course-inputs label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.course-inputs input[type="checkbox"] {
+  margin-right: 5px;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.course-inputs input[type="checkbox"]:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.course-inputs input[type="checkbox"]:checked:before {
+  opacity: 1;
+}
+
+.course-inputs input[type="checkbox"]:checked {
+  border-color: #333;
+  background-color: #333;
+}
+
+.course-inputs input[type="checkbox"]:checked:before {
+  background-color: #fff;
+}
+
+/*========================================================================Navbar============================================================================*/
+.nav{
+  background-color: rgb(130, 125, 125);
+  height: 50px;
+  padding: 0 20px;
+}
+.nav{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navv{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  height: 100%;
+  padding: 0 10px;
+  line-height: 50px;
+  transform: all 0.3s ease;
+}
+img{
+  height: 45px;
+  width: 100px;
+  margin-right: auto;
+}
+.navv {
+  margin-left: 20px;
+}
+.nav:hover {
+  text-decoration: underline;
+}
+.nav {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
